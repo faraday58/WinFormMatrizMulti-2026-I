@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormMatrizMulti-2026-I", "WinFormMatrizMulti-2026-I.csproj", "{EE3B2E90-AAA8-4DA1-90D9-0270B7454B6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE3B2E90-AAA8-4DA1-90D9-0270B7454B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3B2E90-AAA8-4DA1-90D9-0270B7454B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3B2E90-AAA8-4DA1-90D9-0270B7454B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3B2E90-AAA8-4DA1-90D9-0270B7454B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B3B4F76-87B1-40D2-86D9-C30FBE2BCB20}
+	EndGlobalSection
+EndGlobal
