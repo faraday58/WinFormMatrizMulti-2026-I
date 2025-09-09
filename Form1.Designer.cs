@@ -34,7 +34,7 @@
             lbMatrix2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            label5 = new Label();
+            lbResult = new Label();
             label6 = new Label();
             label7 = new Label();
             btnPlus = new Button();
@@ -93,13 +93,13 @@
             label4.Tag = "";
             label4.Text = "=";
             // 
-            // label5
+            // lbResult
             // 
-            label5.Location = new Point(904, 106);
-            label5.Name = "label5";
-            label5.Size = new Size(190, 127);
-            label5.TabIndex = 1;
-            label5.Text = "label1";
+            lbResult.Location = new Point(854, 135);
+            lbResult.Name = "lbResult";
+            lbResult.Size = new Size(190, 127);
+            lbResult.TabIndex = 1;
+            lbResult.Text = "label1";
             // 
             // label6
             // 
@@ -129,6 +129,7 @@
             btnPlus.TabIndex = 3;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.Click += btnPlus_Click;
             // 
             // btnMinus
             // 
@@ -170,7 +171,7 @@
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label3);
-            Controls.Add(label5);
+            Controls.Add(lbResult);
             Controls.Add(lbMatrix2);
             Controls.Add(lbMatrix1);
             Controls.Add(txtbMatrix2);
@@ -189,7 +190,7 @@
         private Label lbMatrix2;
         private Label label3;
         private Label label4;
-        private Label label5;
+        private Label lbResult;
         private Label label6;
         private Label label7;
         private Button btnPlus;

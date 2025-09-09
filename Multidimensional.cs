@@ -48,8 +48,8 @@ namespace WinFormMatrizMulti_2026_I
         public static Multidimensional operator + (Multidimensional m1, Multidimensional m2)
         {
 
-            // 6 8     5 6
-            // 10 12     7 8
+            // 1 2     5 6
+            // 3 4     7 8
             Multidimensional m3 = new Multidimensional(m1.M, m1.N);
 
             for (int i = 0; i < m1.M; i++)
@@ -77,7 +77,7 @@ namespace WinFormMatrizMulti_2026_I
             {
                 for (int j = 0; j < this.N; j++)  
                 {
-                    matrix += this.matrix[i, j] + "\t"; 
+                    matrix += this.matrix[i, j] + "\t "; 
                 }
                 matrix += "\n";
             }
