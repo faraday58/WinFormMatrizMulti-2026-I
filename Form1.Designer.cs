@@ -40,7 +40,9 @@
             btnPlus = new Button();
             btnMinus = new Button();
             btnTimes = new Button();
-            btnTranspose = new Button();
+            btnSin = new Button();
+            rdbDeg = new RadioButton();
+            rdbRad = new RadioButton();
             SuspendLayout();
             // 
             // txtbMatrix1
@@ -149,21 +151,46 @@
             btnTimes.Text = "*";
             btnTimes.UseVisualStyleBackColor = true;
             // 
-            // btnTranspose
+            // btnSin
             // 
-            btnTranspose.Location = new Point(715, 452);
-            btnTranspose.Name = "btnTranspose";
-            btnTranspose.Size = new Size(120, 80);
-            btnTranspose.TabIndex = 3;
-            btnTranspose.Text = "Transpuesta";
-            btnTranspose.UseVisualStyleBackColor = true;
+            btnSin.Location = new Point(715, 452);
+            btnSin.Name = "btnSin";
+            btnSin.Size = new Size(120, 80);
+            btnSin.TabIndex = 3;
+            btnSin.Text = "Seno";
+            btnSin.UseVisualStyleBackColor = true;
+            btnSin.Click += btnSin_Click;
+            // 
+            // rdbDeg
+            // 
+            rdbDeg.AutoSize = true;
+            rdbDeg.Location = new Point(185, 51);
+            rdbDeg.Name = "rdbDeg";
+            rdbDeg.Size = new Size(70, 29);
+            rdbDeg.TabIndex = 4;
+            rdbDeg.TabStop = true;
+            rdbDeg.Text = "Deg";
+            rdbDeg.UseVisualStyleBackColor = true;
+            // 
+            // rdbRad
+            // 
+            rdbRad.AutoSize = true;
+            rdbRad.Location = new Point(516, 51);
+            rdbRad.Name = "rdbRad";
+            rdbRad.Size = new Size(68, 29);
+            rdbRad.TabIndex = 4;
+            rdbRad.TabStop = true;
+            rdbRad.Text = "Rad";
+            rdbRad.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1305, 777);
-            Controls.Add(btnTranspose);
+            Controls.Add(rdbRad);
+            Controls.Add(rdbDeg);
+            Controls.Add(btnSin);
             Controls.Add(btnTimes);
             Controls.Add(btnMinus);
             Controls.Add(btnPlus);
@@ -196,6 +223,8 @@
         private Button btnPlus;
         private Button btnMinus;
         private Button btnTimes;
-        private Button btnTranspose;
+        private Button btnSin;
+        private RadioButton rdbDeg;
+        private RadioButton rdbRad;
     }
 }

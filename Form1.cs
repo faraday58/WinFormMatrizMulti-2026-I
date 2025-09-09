@@ -22,5 +22,17 @@ namespace WinFormMatrizMulti_2026_I
             lbResult.Text = m3.ToString();
 
         }
+
+        private void btnSin_Click(object sender, EventArgs e)
+        {
+            if (rdbDeg.Checked)
+            {
+                MessageBox.Show("Está en Sexagésimales");
+            }
+            else if(rdbRad.Checked)
+            {
+                MessageBox.Show("Está en Radianes");
+            }
+        }
     }
 }
